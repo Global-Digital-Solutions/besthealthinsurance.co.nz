@@ -27,12 +27,12 @@ export default function HomePage() {
                 <span className="text-emerald-400">Health Insurance Cover</span>
               </h1>
               <p className="text-gray-300 text-lg mb-8 max-w-xl leading-relaxed">
-                Skip public waiting lists. Get expert, no-obligation advice from licensed NZ advisers who compare all major providers to find your best cover.
+                Skip public waiting lists. We connect you with specialist NZ advisers who compare all major providers to find the right policy for your requirements.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
                   "Compare Southern Cross, nib, AIA, Accuro & Partners Life",
-                  "Licensed NZ financial advisers — independent service",
+                  "Independent referral service — no cost to you",
                   "Quotes back within 24 hours, no obligation",
                   "Access to plans not available direct-to-public",
                 ].map((item) => (
@@ -154,7 +154,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
               { step: "1", title: "Tell Us What You Need", body: "Fill in a quick form — takes under 2 minutes. Tell us who you want to cover and what matters most to you." },
-              { step: "2", title: "We Compare All Providers", body: "A licensed NZ financial adviser compares Southern Cross, nib, AIA, Accuro, Partners Life and more to find your best options." },
+              { step: "2", title: "An Adviser Compares For You", body: "A specialist NZ insurance adviser compares Southern Cross, nib, AIA, Accuro (UniMed), Partners Life and more to find your best options." },
               { step: "3", title: "You Choose, We Sort It", body: "You pick the plan that fits. Your adviser handles all the paperwork. Cover can start in as little as 24 hours." },
             ].map((item) => (
               <div key={item.step} className="text-center">
@@ -226,7 +226,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: "🔒", title: "Licensed Advisers", body: "All advisers hold current FSP registration with the FMA." },
+              { icon: "🔒", title: "Regulated Advisers", body: "The advisers we connect you with hold FSP registration with the FMA." },
               { icon: "⚖️", title: "100% Independent", body: "Our advisers are paid by insurers — no cost to you, ever." },
               { icon: "🏆", title: "All Major Providers", body: "We compare every major NZ health insurer side-by-side." },
               { icon: "⚡", title: "Fast Response", body: "Receive personalised quotes within 24 hours of enquiry." },

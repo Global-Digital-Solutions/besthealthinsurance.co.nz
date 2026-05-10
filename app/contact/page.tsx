@@ -2,7 +2,7 @@ import QuoteForm from "../components/QuoteForm";
 
 export const metadata = {
   title: "Get a Quote | BestHealthInsurance.co.nz",
-  description: "Get in touch with our licensed health insurance advisers. Quotes within 24 hours, no obligation. Compare all major NZ providers.",
+  description: "Connect with a specialist NZ insurance adviser. Quotes within 24 hours, no obligation. We compare all major NZ health insurance providers.",
 };
 
 export default function ContactPage() {
@@ -11,7 +11,7 @@ export default function ContactPage() {
       <section className="bg-gray-900 border-b border-gray-800 py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 lg:px-8">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Get a Quote</h1>
-          <p className="text-lg text-gray-400">Our licensed advisers compare all major NZ health insurers to find your best cover. No pressure, no obligation.</p>
+          <p className="text-lg text-gray-400">We connect you with specialist NZ insurance advisers who compare all major health insurers to find your best cover. No pressure, no obligation.</p>
         </div>
       </section>
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h2 className="text-3xl font-bold text-white mb-2">Request a Quote</h2>
-            <p className="text-gray-400 mb-8">Fill out the form and one of our advisers will be in touch within 24 hours with a personalised quote.</p>
+            <p className="text-gray-400 mb-8">Fill out the form and a specialist NZ insurance adviser will be in touch within 24 hours with a personalised quote.</p>
             <QuoteForm title="Get Your Best Health Insurance Quote" subtitle="Compare all major NZ providers in 24 hours" />
           </div>
 
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 {[
                   "Independent health insurance comparison service",
                   "Compare all major NZ providers — including Accuro",
-                  "Licensed advisers with years of NZ experience",
+                  "NZ insurance advisers with years of market experience",
                   "No obligation — explore options guilt-free",
                   "Personalised advice for your situation",
                 ].map((item) => (
@@ -66,8 +66,8 @@ export default function ContactPage() {
 
             <div className="bg-gradient-to-r from-emerald-900 to-emerald-800 rounded-lg p-8 border border-emerald-700">
               <h3 className="text-lg font-bold text-white mb-3">About Cover4You</h3>
-              <p className="text-emerald-100 text-sm mb-4">BestHealthInsurance.co.nz is part of the Cover4You Group, a licensed health insurance advisory service.</p>
-              <p className="text-emerald-100 text-sm">Our advisers are licensed professionals committed to helping New Zealanders find the right health insurance at the right price.</p>
+              <p className="text-emerald-100 text-sm mb-4">BestHealthInsurance.co.nz is part of the Cover4You Group — passionate about helping New Zealanders find the right health insurance policy for their needs and budget.</p>
+              <p className="text-emerald-100 text-sm">When you enquire, we connect you with a licensed NZ insurance adviser who compares all major providers on your behalf at no charge.</p>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function ContactPage() {
           <h2 className="text-3xl font-bold text-white mb-8">Why New Zealanders Trust Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: "👤", title: "Licensed Advisers", body: "Our team are licensed health insurance professionals with years of NZ experience." },
+              { icon: "👤", title: "Specialist Advisers", body: "We connect you with NZ insurance advisers who specialise in health insurance and know the market inside out." },
               { icon: "⚖️", title: "Truly Independent", body: "We compare all major providers — no bias towards any particular insurer." },
               { icon: "🎯", title: "Your Best Interest", body: "We focus on finding you the right cover at the right price for your situation." },
             ].map((item) => (

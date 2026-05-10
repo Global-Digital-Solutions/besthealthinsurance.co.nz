@@ -2,7 +2,7 @@ export const SITE = {
   name: "BestHealthInsurance.co.nz",
   domain: "https://besthealthinsurance.co.nz",
   tagline: "NZ's Independent Best Health Insurance Comparison",
-  description: "Compare the best health insurance from all major NZ providers. Southern Cross, nib, AIA, Accuro & Partners Life compared by licensed advisers. Get a quote within 24 hours.",
+  description: "Compare the best health insurance from all major NZ providers. Southern Cross, nib, AIA, Accuro & Partners Life — passionate about finding Kiwis the right policy. Connect with a specialist adviser within 24 hours.",
   email: "hello@cover4you.co.nz",
   formCC: "butlerdarin@gmail.com,harper@pulseadvice.co.nz",
   formSubject: "New Best Health Insurance Quote Request",

@@ -74,7 +74,7 @@ export default function FaqsPage() {
       <section className="bg-emerald-600 py-14">
         <div className="max-w-4xl mx-auto px-4 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Still Have Questions?</h2>
-          <p className="text-emerald-100 mb-8">Our licensed advisers are happy to help. Get in touch for personalised advice.</p>
+          <p className="text-emerald-100 mb-8">The specialist advisers we work with are happy to help. Get in touch for personalised advice.</p>
           <Link href="/contact/" className="inline-block bg-white hover:bg-gray-100 text-emerald-700 font-bold px-10 py-4 rounded-lg transition-colors shadow-lg">
             Get a Quote →
           </Link>

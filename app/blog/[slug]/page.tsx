@@ -138,7 +138,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             <div className="mt-10 pt-8 border-t border-gray-800">
               <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  <strong className="text-white">NZ Insurance Adviser Team</strong> — Our team of licensed New Zealand insurance advisers helps Kiwis find the best health insurance cover. We compare major providers — Southern Cross, nib, AIA, Accuro, and Partners Life — to match you with coverage that fits your situation and budget. Our service is always independent; the licensed advisers we work with are paid by providers when you take out a policy.
+                  <strong className="text-white">BestHealthInsurance.co.nz</strong> — We&apos;re passionate about helping Kiwis find the right health insurance policy for their needs and budget. We&apos;re an independent comparison and referral service — when you enquire, we connect you with a licensed NZ insurance adviser who compares all major providers (Southern Cross, nib, AIA, Accuro/UniMed, and Partners Life) on your behalf. The advisers we work with are paid by providers when you take out a policy. There is no cost to you.
                 </p>
               </div>
             </div>
