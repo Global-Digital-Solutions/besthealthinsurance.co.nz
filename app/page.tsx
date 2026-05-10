@@ -12,9 +12,9 @@ export default function HomePage() {
       {/* ── Hero ── */}
       <section
         className="relative min-h-[680px] lg:min-h-[760px] bg-cover bg-center"
-        style={{ backgroundImage: "url(/hero-family.jpg)", backgroundPosition: "center 35%" }}
+        style={{ backgroundImage: "url(/hero-7.jpg)", backgroundPosition: "center 30%" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/92 via-gray-900/75 to-gray-900/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 via-gray-900/70 to-gray-900/85" />
         <div className="relative max-w-7xl mx-auto px-4 lg:px-8 py-20 lg:py-28">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
             {/* Left — headline + bullets */}
