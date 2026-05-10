@@ -19,9 +19,9 @@ export const STATS = [
 ];
 
 export const PROVIDERS = [
-  { name: "Southern Cross", slug: "southern-cross", icon: "🏥", color: "#003087", rating: 4.8, from: "$89", badge: "Most Popular", badgeColor: "bg-emerald-500", featured: false, notRecommended: false },
-  { name: "nib", slug: "nib", icon: "🩺", color: "#e4002b", rating: 3.9, from: "$95", badge: "Digital-First", badgeColor: "bg-sky-500", featured: false, notRecommended: true },
-  { name: "AIA", slug: "aia", icon: "💪", color: "#d4002d", rating: 4.6, from: "$68", badge: "Vitality Rewards", badgeColor: "bg-violet-500", featured: false, notRecommended: false },
-  { name: "Accuro", slug: "accuro", icon: "🛡️", color: "#1e6b2e", rating: 4.5, from: "$55", badge: "HIGHLY RATED", badgeColor: "bg-emerald-600", featured: true, notRecommended: false },
-  { name: "Partners Life", slug: "partners-life", icon: "🤝", color: "#1e3a5f", rating: 4.2, from: "$72", badge: "NZ-Owned", badgeColor: "bg-amber-500", featured: false, notRecommended: false },
+  { name: "Southern Cross", slug: "southern-cross", icon: "🏥", color: "#003087", rating: 4.8, from: "$86", badge: "Best Value", badgeColor: "bg-emerald-500", featured: false, notRecommended: false },
+  { name: "nib", slug: "nib", icon: "🩺", color: "#e4002b", rating: 3.9, from: "$135", badge: "Digital-First", badgeColor: "bg-sky-500", featured: false, notRecommended: true },
+  { name: "AIA", slug: "aia", icon: "💪", color: "#d4002d", rating: 4.6, from: "$119", badge: "Vitality Rewards", badgeColor: "bg-violet-500", featured: false, notRecommended: false },
+  { name: "Accuro (UniMed)", slug: "accuro", icon: "🛡️", color: "#1e6b2e", rating: 4.5, from: "$115", badge: "HIGHLY RATED", badgeColor: "bg-emerald-600", featured: true, notRecommended: false },
+  { name: "Partners Life", slug: "partners-life", icon: "🤝", color: "#1e3a5f", rating: 4.2, from: "$134", badge: "Best Wordings", badgeColor: "bg-amber-500", featured: false, notRecommended: false },
 ];

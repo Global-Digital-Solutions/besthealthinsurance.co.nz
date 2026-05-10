@@ -63,7 +63,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       { name: 'Southern Cross', note: 'Most popular, largest NZ health insurer', featured: true },
       { name: 'nib', note: 'Market-leading digital tools' },
       { name: 'AIA', note: 'Strong life + health combo policies' },
-      { name: 'Accuro', note: 'NZ\'s only member-owned insurer — lowest starting premiums', featured: true },
+      { name: 'Accuro (now UniMed)', note: 'Member-owned, 2nd cheapest premiums, only insurer with mental health as specific add-on', featured: true },
       { name: 'Partners Life', note: 'Strong trauma add-on options' },
     ],
     costFactors: [
@@ -119,7 +119,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
     ],
     providers: [
       { name: 'Southern Cross', note: 'Most established surgical cover in NZ', featured: true },
-      { name: 'Accuro', note: 'Competitive premiums, member-owned', featured: true },
+      { name: 'Accuro (now UniMed)', note: 'Member-owned, second-cheapest premiums', featured: true },
       { name: 'nib', note: 'Clear online claims process' },
       { name: 'AIA', note: 'Bundled options with life cover' },
       { name: 'Partners Life', note: 'Strong definitions and broad coverage' },
@@ -177,7 +177,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
     ],
     providers: [
       { name: 'Southern Cross', note: 'Easiest claims process via app', featured: true },
-      { name: 'Accuro', note: 'Competitive everyday cover rates', featured: true },
+      { name: 'Accuro (now UniMed)', note: 'Competitive everyday cover rates', featured: true },
       { name: 'nib', note: 'Strong digital claims experience' },
       { name: 'AIA', note: 'Good wellness programme integration' },
       { name: 'Partners Life', note: 'Flexible benefit amounts' },
@@ -237,7 +237,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       { name: 'Partners Life', note: 'One of the broadest trauma condition lists', featured: true },
       { name: 'AIA', note: 'Strong cancer-specific benefits and wellness programme', featured: true },
       { name: 'Southern Cross', note: 'Trusted brand, reliable claims' },
-      { name: 'Accuro', note: 'Bundled trauma with health cover options' },
+      { name: 'Accuro (now UniMed)', note: 'Bundled trauma with health cover options' },
       { name: 'nib', note: 'Competitive trauma standalone policies' },
     ],
     costFactors: [
@@ -296,7 +296,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       { name: 'AIA', note: 'Strong wellness programme reduces premiums over time', featured: true },
       { name: 'Southern Cross', note: 'Trusted NZ brand' },
       { name: 'nib', note: 'Competitive standalone life policies' },
-      { name: 'Accuro', note: 'Life cover bundled with health options' },
+      { name: 'Accuro (now UniMed)', note: 'Life cover bundled with health options' },
     ],
     costFactors: [
       'Sum insured — the lump sum amount chosen',
@@ -354,7 +354,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       { name: 'AIA', note: 'Strong rehabilitation benefits and return-to-work support', featured: true },
       { name: 'Southern Cross', note: 'Reliable claims and established product' },
       { name: 'nib', note: 'Competitive premiums for professionals' },
-      { name: 'Accuro', note: 'Bundled income + health options' },
+      { name: 'Accuro (now UniMed)', note: 'Bundled income + health options' },
     ],
     costFactors: [
       'Occupation class — high-risk occupations pay more',
@@ -411,7 +411,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       { name: 'Southern Cross', note: 'Market leader in NZ group health insurance', featured: true },
       { name: 'nib', note: 'Strong digital platform for employee management', featured: true },
       { name: 'AIA', note: 'Group cover with wellness programme integration' },
-      { name: 'Accuro', note: 'Competitive group rates, member-owned approach' },
+      { name: 'Accuro (now UniMed)', note: 'Competitive group rates, member-owned approach' },
       { name: 'Partners Life', note: 'Group income protection bundling available' },
     ],
     costFactors: [
@@ -466,14 +466,14 @@ export const COVERAGE_TYPES: CoverageType[] = [
       'Anyone who values early intervention over crisis-point treatment',
     ],
     providers: [
-      { name: 'Accuro', note: 'ONLY insurer offering mental health as a specific optional add-on — HIGHLY RECOMMENDED', featured: true },
+      { name: 'Accuro (now UniMed)', note: 'ONLY insurer with mental health as specific optional add-on — HIGHLY RECOMMENDED', featured: true },
       { name: 'Southern Cross', note: 'Mental health included within major medical — limitations apply' },
       { name: 'nib', note: 'Mental health within hospital cover — check definitions carefully' },
       { name: 'AIA', note: 'Mental health benefits bundled in comprehensive policies' },
       { name: 'Partners Life', note: 'Mental health included in major medical policies' },
     ],
     costFactors: [
-      'Whether purchased as standalone (Accuro) or within major medical',
+      'Whether purchased as standalone (Accuro/UniMed) or within major medical',
       'Session limits — some policies cap annual sessions',
       'Waiting periods — typically 2–3 months for non-acute conditions',
       'Pre-existing conditions — prior mental health history may affect acceptance',
