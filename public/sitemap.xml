@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ── Core Pages ── -->
+  <url><loc>https://besthealthinsurance.co.nz/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/compare/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/contact/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/about/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/faqs/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ── Provider Pages ── -->
+  <url><loc>https://besthealthinsurance.co.nz/health-insurance/southern-cross/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/health-insurance/accuro/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/health-insurance/partners-life/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/health-insurance/aia/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/health-insurance/nib/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ── Coverage Type Pages ── -->
+  <url><loc>https://besthealthinsurance.co.nz/coverage/major-medical/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/surgical-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/everyday-health/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/trauma-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/life-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/income-protection/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/business-health/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/coverage/mental-health/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ── For You Segment Pages ── -->
+  <url><loc>https://besthealthinsurance.co.nz/for-you/individuals/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/for-you/families/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/for-you/seniors/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/for-you/self-employed/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/for-you/business-owners/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/for-you/new-to-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ── Blog Posts ── -->
+  <url><loc>https://besthealthinsurance.co.nz/blog/acc-doesnt-cover-everything/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/accuro-health-insurance-review/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/aia-vitality-maximum-discounts/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/best-health-insurance-plan-2026/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/cancer-drugs-only-if-insured/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/cheapest-health-insurance-without-losing-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/family-health-insurance-without-overpaying/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/health-insurance-after-65/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/health-insurance-auckland-waiting-lists/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/health-insurance-christchurch-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/health-insurance-declined-pre-existing-conditions/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/health-insurance-mistakes-to-avoid/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/health-insurance-wellington-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/is-childrens-health-insurance-worth-it/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/is-southern-cross-still-best-2026/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/major-medical-vs-surgical-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/non-pharmac-drugs-risk-without-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/partners-life-vs-aia-policy-wordings/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/public-vs-private-healthcare-real-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/real-cost-of-no-health-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/self-employed-health-insurance-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/smart-excess-strategy-cut-premiums/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/switch-health-insurers-no-gap/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/blog/what-health-insurance-pays-cancer-diagnosis/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ── Static Pages ── -->
+  <url><loc>https://besthealthinsurance.co.nz/privacy/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/terms/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://besthealthinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+</urlset>

@@ -1,0 +1,117 @@
+import QuoteForm from "../components/QuoteForm";
+
+export const metadata = {
+  title: "Get a Quote | BestHealthInsurance.co.nz",
+  description: "Get in touch with our licensed health insurance advisers. Quotes within 24 hours, no obligation. Compare all major NZ providers.",
+};
+
+export default function ContactPage() {
+  return (
+    <>
+      <section className="bg-gray-900 border-b border-gray-800 py-16 lg:py-20">
+        <div className="max-w-6xl mx-auto px-4 lg:px-8">
+          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Get a Quote</h1>
+          <p className="text-lg text-gray-400">Our licensed advisers compare all major NZ health insurers to find your best cover. No pressure, no obligation.</p>
+        </div>
+      </section>
+
+      <section className="py-16 lg:py-20 px-4 lg:px-8 border-b border-gray-800">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div>
+            <h2 className="text-3xl font-bold text-white mb-2">Request a Quote</h2>
+            <p className="text-gray-400 mb-8">Fill out the form and one of our advisers will be in touch within 24 hours with a personalised quote.</p>
+            <QuoteForm title="Get Your Best Health Insurance Quote" subtitle="Compare all major NZ providers in 24 hours" />
+          </div>
+
+          <div className="space-y-8">
+            <div className="bg-gray-800 rounded-lg p-8 border border-gray-700">
+              <h3 className="text-2xl font-bold text-emerald-400 mb-4">Contact Details</h3>
+              <div className="space-y-6">
+                <div>
+                  <p className="text-gray-500 text-sm mb-1">Email</p>
+                  <a href="mailto:hello@cover4you.co.nz" className="text-white font-semibold hover:text-emerald-400 transition-colors">
+                    hello@cover4you.co.nz
+                  </a>
+                </div>
+                <div>
+                  <p className="text-gray-500 text-sm mb-1">Website</p>
+                  <a href="https://besthealthinsurance.co.nz" className="text-white font-semibold hover:text-emerald-400 transition-colors">
+                    besthealthinsurance.co.nz
+                  </a>
+                </div>
+                <div>
+                  <p className="text-gray-500 text-sm mb-1">Response Time</p>
+                  <p className="text-white font-semibold">Within 24 hours</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-800 rounded-lg p-8 border border-gray-700">
+              <h3 className="text-2xl font-bold text-emerald-400 mb-4">Why Contact Us</h3>
+              <ul className="space-y-3 text-gray-300">
+                {[
+                  "Independent health insurance comparison service",
+                  "Compare all major NZ providers — including Accuro",
+                  "Licensed advisers with years of NZ experience",
+                  "No obligation — explore options guilt-free",
+                  "Personalised advice for your situation",
+                ].map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="text-emerald-400">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="bg-gradient-to-r from-emerald-900 to-emerald-800 rounded-lg p-8 border border-emerald-700">
+              <h3 className="text-lg font-bold text-white mb-3">About Cover4You</h3>
+              <p className="text-emerald-100 text-sm mb-4">BestHealthInsurance.co.nz is part of the Cover4You Group, a licensed health insurance advisory service.</p>
+              <p className="text-emerald-100 text-sm">Our advisers are licensed professionals committed to helping New Zealanders find the right health insurance at the right price.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 lg:py-20 px-4 lg:px-8 border-b border-gray-800">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Is your service really free?", a: "Yes. We're paid by the insurance providers when you take out a policy. You pay nothing — the insurer covers our commission." },
+              { q: "How long does it take to get a quote?", a: "Most quotes are provided within 24 hours. Simple quotes may be faster. We'll confirm timing when we contact you." },
+              { q: "Do I have to buy insurance?", a: "Absolutely not. We're here to provide information and quotes. You're free to take your time deciding, or not buy at all." },
+              { q: "Which providers do you compare?", a: "We compare Southern Cross, nib, AIA, Accuro, and Partners Life — all major NZ health insurers. We typically recommend Accuro or Partners Life for the best value." },
+              { q: "Can you help with pre-existing conditions?", a: "Yes. We work with all providers and understand how they handle pre-existing conditions. We'll help you find the best options for your situation." },
+              { q: "Will you pressure me to buy?", a: "No. We provide information and recommendations, but the decision is entirely yours. We're here to help, not to sell." },
+            ].map((faq) => (
+              <div key={faq.q} className="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 className="text-lg font-semibold text-white mb-3">{faq.q}</h3>
+                <p className="text-gray-300">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-800 py-16 lg:py-20 px-4 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white mb-8">Why New Zealanders Trust Us</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { icon: "👤", title: "Licensed Advisers", body: "Our team are licensed health insurance professionals with years of NZ experience." },
+              { icon: "⚖️", title: "Truly Independent", body: "We compare all major providers — no bias towards any particular insurer." },
+              { icon: "🎯", title: "Your Best Interest", body: "We focus on finding you the right cover at the right price for your situation." },
+            ].map((item) => (
+              <div key={item.title}>
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-lg font-semibold text-white mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
