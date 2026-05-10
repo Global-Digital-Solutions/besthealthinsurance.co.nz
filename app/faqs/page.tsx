@@ -1,8 +1,15 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "FAQs | BestHealthInsurance.co.nz",
-  description: "Frequently asked questions about health insurance in New Zealand. Get answers to your health insurance questions.",
+  title: "Health Insurance FAQs New Zealand | BestHealthInsurance.co.nz",
+  description: "Frequently asked questions about health insurance in New Zealand — costs, coverage, providers, pre-existing conditions, and how to choose. Expert answers from our NZ adviser team.",
+  alternates: { canonical: "https://besthealthinsurance.co.nz/faqs/" },
+  openGraph: {
+    title: "Health Insurance FAQs New Zealand | BestHealthInsurance.co.nz",
+    description: "Get answers to the most common NZ health insurance questions — what's covered, how much it costs, which provider to choose, and more.",
+    url: "https://besthealthinsurance.co.nz/faqs/",
+    type: "website",
+  },
 };
 
 const faqs = [
@@ -43,9 +50,33 @@ const faqs = [
   },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.flatMap((section) =>
+    section.items.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    }))
+  ),
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
+    { "@type": "ListItem", position: 2, name: "FAQs", item: "https://besthealthinsurance.co.nz/faqs/" },
+  ],
+};
+
 export default function FaqsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
       <section className="bg-gray-900 border-b border-gray-800 py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 lg:px-8">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h1>

@@ -1,13 +1,39 @@
 import QuoteForm from "../components/QuoteForm";
 
 export const metadata = {
-  title: "Get a Quote | BestHealthInsurance.co.nz",
-  description: "Connect with a specialist NZ insurance adviser. Quotes within 24 hours, no obligation. We compare all major NZ health insurance providers.",
+  title: "Get a Health Insurance Quote NZ | BestHealthInsurance.co.nz",
+  description: "Connect with a specialist NZ insurance adviser within 24 hours. No obligation. We compare Southern Cross, nib, AIA, Accuro and Partners Life for your situation.",
+  alternates: { canonical: "https://besthealthinsurance.co.nz/contact/" },
+  openGraph: {
+    title: "Get a Health Insurance Quote NZ | BestHealthInsurance.co.nz",
+    description: "Connect with a specialist NZ insurance adviser within 24 hours. We compare all major providers at no cost to you.",
+    url: "https://besthealthinsurance.co.nz/contact/",
+    type: "website",
+  },
+};
+
+const contactPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": "https://besthealthinsurance.co.nz/contact/#webpage",
+  url: "https://besthealthinsurance.co.nz/contact/",
+  name: "Get a Health Insurance Quote — BestHealthInsurance.co.nz",
+  description: "Connect with a specialist NZ health insurance adviser within 24 hours. We compare all major providers at no cost to you.",
+  inLanguage: "en-NZ",
+  isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Get a Quote", item: "https://besthealthinsurance.co.nz/contact/" },
+    ],
+  },
 };
 
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }} />
       <section className="bg-gray-900 border-b border-gray-800 py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 lg:px-8">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Get a Quote</h1>

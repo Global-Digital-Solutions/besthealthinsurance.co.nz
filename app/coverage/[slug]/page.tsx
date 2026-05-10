@@ -30,6 +30,50 @@ export default async function CoveragePage({ params }: Props) {
 
   const otherCoverages = coverageTypes.filter((c) => c.slug !== slug).slice(0, 5)
 
+  // Build structured data
+  const faqs = [
+    { q: `What does ${coverage.title} actually cover?`, a: coverage.description },
+    { q: `How much does ${coverage.title} cost per month?`, a: `${coverage.title} starts from ${coverage.from}/month for a healthy adult, but your actual premium depends on your age, health history, chosen excess, and level of cover. A licensed adviser will get you an accurate personalised quote from all major providers.` },
+    { q: 'Are pre-existing conditions covered?', a: "Pre-existing conditions are typically excluded from cover, or may be subject to a premium loading. The definitions vary by insurer, and some conditions may be covered after a stand-down period. An adviser will help you understand each provider's approach before you commit." },
+    { q: 'How do I claim?', a: 'Most NZ insurers have a smartphone app for submitting claims. For surgical or hospital claims, your specialist or hospital typically handles the claim directly. For everyday cover claims, you submit receipts and are reimbursed within a few business days.' },
+  ]
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Coverage Types", item: "https://besthealthinsurance.co.nz/coverage/" },
+      { "@type": "ListItem", position: 3, name: coverage.title, item: `https://besthealthinsurance.co.nz/coverage/${slug}/` },
+    ],
+  }
+
+  const medicalWebPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": `https://besthealthinsurance.co.nz/coverage/${slug}/#webpage`,
+    url: `https://besthealthinsurance.co.nz/coverage/${slug}/`,
+    name: coverage.metaTitle,
+    description: coverage.metaDesc,
+    inLanguage: "en-NZ",
+    isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+    author: { "@id": "https://besthealthinsurance.co.nz/#organization" },
+    publisher: { "@id": "https://besthealthinsurance.co.nz/#organization" },
+    breadcrumb: { "@id": `https://besthealthinsurance.co.nz/coverage/${slug}/#breadcrumb` },
+    medicalAudience: { "@type": "Patient" },
+    lastReviewed: "2026-05-10",
+  }
+
   const heroImages: Record<string, string> = {
     'major-medical': '/hero-7.jpg',
     'surgical-cover': '/hero-6.jpg',
@@ -44,6 +88,10 @@ export default async function CoveragePage({ params }: Props) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalWebPageSchema) }} />
+
       {/* ── Hero ── */}
       <div
         className="relative border-b border-gray-700"
@@ -245,6 +293,25 @@ export default async function CoveragePage({ params }: Props) {
                 >
                   Get a Quote →
                 </Link>
+              </div>
+
+              {/* Internal links */}
+              <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+                <h3 className="font-bold text-gray-900 mb-3 text-sm uppercase tracking-wide">Related Guides</h3>
+                <ul className="space-y-2 mb-4">
+                  <li><Link href="/compare/" className="text-emerald-600 hover:text-emerald-500 text-sm">→ Compare All NZ Health Insurance Providers</Link></li>
+                  <li><Link href="/blog/" className="text-emerald-600 hover:text-emerald-500 text-sm">→ NZ Health Insurance Guides & Articles</Link></li>
+                  <li><Link href="/faqs/" className="text-emerald-600 hover:text-emerald-500 text-sm">→ Frequently Asked Questions</Link></li>
+                  <li><Link href="/contact/" className="text-emerald-600 hover:text-emerald-500 text-sm">→ Get a Personalised Quote</Link></li>
+                </ul>
+                <p className="text-gray-400 text-xs">
+                  External resources:{' '}
+                  <a href="https://www.pharmac.govt.nz" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-500">PHARMAC (funded medicines)</a>
+                  {' · '}
+                  <a href="https://www.tewhatuora.govt.nz" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-500">Health New Zealand (Te Whatu Ora)</a>
+                  {' · '}
+                  <a href="https://www.fma.govt.nz/consumers/insurance/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-500">FMA — Insurance guidance</a>
+                </p>
               </div>
 
               {/* Disclaimer */}

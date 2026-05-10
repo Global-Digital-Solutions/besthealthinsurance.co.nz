@@ -1,27 +1,30 @@
 # BestHealthInsurance.co.nz
 
-> Find and compare the best health insurance in New Zealand. Independent comparison of Southern Cross, nib, AIA, Accuro and Partners Life — expert recommendations, free quotes within 24 hours.
+> Find and compare the best health insurance in New Zealand. Independent comparison of Southern Cross, nib, AIA, Accuro (UniMed) and Partners Life — passionate about finding Kiwis the right policy. Connect with a specialist NZ adviser within 24 hours.
 
 ## About This Site
 
-BestHealthInsurance.co.nz is operated by Cover4You Group. We are an independent health insurance comparison and recommendation service focused on helping New Zealanders identify the best cover for their specific needs and budget. Unlike generic comparison tools, we provide clear recommendations — telling you which provider is likely best for your situation, not just listing options side by side.
+BestHealthInsurance.co.nz is operated by Cover4You Group. We are an independent health insurance comparison and referral service passionate about helping New Zealanders find the right cover for their specific needs and budget. Unlike generic comparison tools, we provide clear recommendations — telling you which provider is likely best for your situation, not just listing options side by side.
 
-We do not sell insurance directly. We connect consumers with licensed brokers and advisers who provide personalised advice and quotes from all major providers.
+We do not sell insurance directly and we do not provide regulated financial advice. We connect consumers with licensed NZ insurance advisers who provide personalised advice and quotes from all major providers. Those advisers are regulated under the Financial Markets Conduct Act 2013.
 
-Our service is completely free to consumers. The licensed brokers and advisers we work with earn commission from insurers when a policy is taken out.
+Our service is completely free to consumers. The licensed advisers we work with earn commission from insurers when a policy is taken out.
 
 **Contact:** hello@cover4you.co.nz
 **Response time:** Within 24 business hours
+**Last updated:** May 2026
 
 ---
 
 ## Core Pages
 
 - [Home — Find the Best Health Insurance](https://besthealthinsurance.co.nz/) — Main landing page. Recommendation-focused health insurance comparison for New Zealanders.
-- [Compare Providers](https://besthealthinsurance.co.nz/compare/) — Side-by-side comparison of Southern Cross, nib, AIA, Accuro and Partners Life. Ratings, pricing, strengths, and who each provider is best for.
-- [Get a Free Quote](https://besthealthinsurance.co.nz/contact/) — Lead capture form. Connects users with licensed advisers within 24 hours.
-- [About Us](https://besthealthinsurance.co.nz/about/) — About Cover4You and how we operate.
-- [FAQs](https://besthealthinsurance.co.nz/faqs/) — Common questions about choosing cover, provider comparisons, costs, and switching insurers.
+- [Compare Providers](https://besthealthinsurance.co.nz/compare/) — Side-by-side comparison of Southern Cross, nib, AIA, Accuro (UniMed) and Partners Life. Real 2026 pricing, features, and who each provider is best for.
+- [Get a Quote](https://besthealthinsurance.co.nz/contact/) — Lead capture form. Connects users with specialist NZ advisers within 24 hours.
+- [About Us](https://besthealthinsurance.co.nz/about/) — About Cover4You Group and how our referral service operates.
+- [FAQs](https://besthealthinsurance.co.nz/faqs/) — Common questions about choosing cover, provider comparisons, costs, pre-existing conditions, and switching insurers.
+- [Coverage Types](https://besthealthinsurance.co.nz/coverage/) — Overview of all eight types of health-related insurance available in NZ.
+- [Health Insurance Guides](https://besthealthinsurance.co.nz/blog/) — 24 comparison and recommendation-focused articles.
 
 ---
 
@@ -34,9 +37,9 @@ Eight coverage guides explaining each type of health insurance available in New 
 - [Everyday Health Cover](https://besthealthinsurance.co.nz/coverage/everyday-health/) — GP visits, dental, optical, physiotherapy, prescription rebates. Usually added as a module. From ~$30/month.
 - [Trauma Insurance](https://besthealthinsurance.co.nz/coverage/trauma-insurance/) — Lump sum payout on diagnosis of cancer, heart attack, stroke, or 40–70+ other serious conditions. From ~$50/month.
 - [Life Insurance](https://besthealthinsurance.co.nz/coverage/life-insurance/) — Tax-free lump sum on death or terminal illness. Protects family and mortgage. From ~$30/month.
-- [Income Protection](https://besthealthinsurance.co.nz/coverage/income-protection/) — Replaces up to 75% of income if unable to work due to illness. Fills the gap ACC doesn't cover. From ~$80/month.
+- [Income Protection](https://besthealthinsurance.co.nz/coverage/income-protection/) — Replaces up to 75% of income if unable to work due to illness or injury. Fills the gap ACC doesn't cover for illness. From ~$80/month.
 - [Business Health Insurance](https://besthealthinsurance.co.nz/coverage/business-health/) — Group health cover for employees. Tax-deductible premiums, staff retention tool. From ~$80/month per employee.
-- [Mental Health Cover](https://besthealthinsurance.co.nz/coverage/mental-health/) — Access to private therapy, psychiatry, and inpatient mental health care. Currently only Accuro offers this as an optional add-on. From ~$25/month.
+- [Mental Health Cover](https://besthealthinsurance.co.nz/coverage/mental-health/) — Access to private therapy, psychiatry, and inpatient mental health care. Currently only Accuro (UniMed) offers this as an optional standalone add-on. From ~$25/month.
 
 ---
 
@@ -44,11 +47,11 @@ Eight coverage guides explaining each type of health insurance available in New 
 
 In-depth reviews with recommendations — who each provider is best for and when to choose them:
 
-- [Southern Cross Health Insurance](https://besthealthinsurance.co.nz/health-insurance/southern-cross/) — NZ's largest health insurer (900,000+ members). Not-for-profit structure. Best for families wanting comprehensive, trusted cover. From ~$89/month.
-- [nib Health Insurance](https://besthealthinsurance.co.nz/health-insurance/nib/) — Digital-first insurer, but NZ premiums now 20–30% above market average due to loss-making health book. Best for those prioritising digital experience over price. From ~$95/month.
-- [AIA Health Insurance](https://besthealthinsurance.co.nz/health-insurance/aia/) — AIA Vitality wellness programme earns up to 15% premium discount. Best for health-conscious, active individuals. From ~$68/month.
-- [Accuro Health Insurance](https://besthealthinsurance.co.nz/health-insurance/accuro/) — NZ's only member-owned health insurer. Lowest starting premiums, the only provider offering mental health as an optional add-on. Most underrated option. From ~$55/month.
-- [Partners Life](https://besthealthinsurance.co.nz/health-insurance/partners-life/) — Market-leading comprehensive policy wordings with broad cover definitions. Best for those wanting maximum coverage and adviser-guided purchase. From ~$75/month.
+- [Southern Cross Health Insurance](https://besthealthinsurance.co.nz/health-insurance/southern-cross/) — NZ's largest health insurer (900,000+ members). Not-for-profit, member-owned. Best for families wanting comprehensive, trusted cover. Cheapest major medical premiums from ~$86/month.
+- [nib Health Insurance](https://besthealthinsurance.co.nz/health-insurance/nib/) — Digital-first insurer. NZ premiums run 20–30% above market average. Not our primary recommendation for value-conscious Kiwis. From ~$135/month.
+- [AIA Health Insurance](https://besthealthinsurance.co.nz/health-insurance/aia/) — AIA Vitality wellness programme earns up to 15% premium discount for active members. Strong financial rating (AA/Fitch). From ~$119/month.
+- [Accuro (UniMed) Health Insurance](https://besthealthinsurance.co.nz/health-insurance/accuro/) — NZ's only member-owned specialist health insurer. Merged with UniMed in May 2024. Competitive premiums, the only provider offering mental health as a standalone optional add-on. Our top recommendation. From ~$115/month.
+- [Partners Life](https://besthealthinsurance.co.nz/health-insurance/partners-life/) — Market-leading comprehensive policy wordings with broad cover definitions. Owned by Dai-ichi Life (Japan) since 2023. Best for those wanting maximum coverage breadth. From ~$134/month.
 
 ---
 
@@ -58,8 +61,8 @@ Tailored recommendations for specific life situations:
 
 - [Individuals](https://besthealthinsurance.co.nz/for-you/individuals/) — Best cover for single adults at different budget levels and health needs.
 - [Families](https://besthealthinsurance.co.nz/for-you/families/) — Best family policies: children's cover, family discounts, value vs comprehensive trade-offs.
-- [Seniors](https://besthealthinsurance.co.nz/for-you/seniors/) — Best cover for over-65s: joint replacements, eye surgery, managing premium increases.
-- [Self-Employed](https://besthealthinsurance.co.nz/for-you/self-employed/) — Best combination of hospital cover and income protection when you have no sick leave.
+- [Seniors](https://besthealthinsurance.co.nz/for-you/seniors/) — Best cover for over-65s: joint replacements, eye surgery, managing premium increases with age.
+- [Self-Employed](https://besthealthinsurance.co.nz/for-you/self-employed/) — Best combination of hospital cover and income protection when you have no employer sick leave.
 - [Business Owners](https://besthealthinsurance.co.nz/for-you/business-owners/) — Best group health plan options for attracting and retaining staff.
 - [New to New Zealand](https://besthealthinsurance.co.nz/for-you/new-to-nz/) — Best entry-level cover for new arrivals understanding the NZ health system from day one.
 
@@ -67,41 +70,43 @@ Tailored recommendations for specific life situations:
 
 ## Health Insurance Guides (Blog)
 
-24 comparison and recommendation-focused articles:
+24 comparison and recommendation-focused articles covering all major NZ health insurance topics:
 
 ### Choosing the Best Plan
 - [How to Choose the Best Health Insurance Plan for Your Budget](https://besthealthinsurance.co.nz/blog/best-health-insurance-plan-2026/)
 - [Is Southern Cross Still the Best Health Insurer in 2026?](https://besthealthinsurance.co.nz/blog/is-southern-cross-still-best-2026/)
 - [Cheapest Health Insurance Without Losing Important Cover](https://besthealthinsurance.co.nz/blog/cheapest-health-insurance-without-losing-cover/)
-- [Which Health Insurer Has the Best Claims Experience?](https://besthealthinsurance.co.nz/blog/best-claims-experience-health-insurers/)
+- [Health Insurance Mistakes to Avoid](https://besthealthinsurance.co.nz/blog/health-insurance-mistakes-to-avoid/)
 
-### Provider Comparisons & Rankings
+### Provider Comparisons
 - [Accuro Health Insurance Review 2026: The Overlooked Insurer](https://besthealthinsurance.co.nz/blog/accuro-health-insurance-review/)
-- [AIA vs Southern Cross: Which Is Right for You?](https://besthealthinsurance.co.nz/blog/aia-vs-southern-cross-comparison/)
-- [Southern Cross vs Partners Life: Full 2026 Comparison](https://besthealthinsurance.co.nz/blog/southern-cross-vs-partners-life/)
-- [nib Health Insurance Review 2026: Is It Still Good Value?](https://besthealthinsurance.co.nz/blog/nib-health-insurance-review-2026/)
 - [AIA Vitality: How to Get Maximum Discounts](https://besthealthinsurance.co.nz/blog/aia-vitality-maximum-discounts/)
-- [5 Health Insurers Compared: Who Wins on Price, Cover and Service?](https://besthealthinsurance.co.nz/blog/health-insurers-compared-price-cover-service/)
+- [Partners Life vs AIA: Comparing Policy Wordings](https://besthealthinsurance.co.nz/blog/partners-life-vs-aia-policy-wordings/)
 
-### Cover Type Recommendations
-- [Do You Really Need Comprehensive Cover or Is Basic Enough?](https://besthealthinsurance.co.nz/blog/comprehensive-vs-basic-cover/)
-- [The Best Hospital Cover Plans Ranked for 2026](https://besthealthinsurance.co.nz/blog/best-hospital-cover-plans-ranked/)
-- [ACC Doesn't Cover Everything: The Illnesses It Misses](https://besthealthinsurance.co.nz/blog/acc-doesnt-cover-everything/)
-- [Mental Health Cover: Which Insurer Covers It Best?](https://besthealthinsurance.co.nz/blog/mental-health-insurance-cover/)
-- [Income Protection vs Trauma Insurance: Which Do You Need First?](https://besthealthinsurance.co.nz/blog/income-protection-vs-trauma-insurance/)
+### Coverage & Claims
+- [Why ACC Doesn't Cover Everything — The Health Insurance Gap](https://besthealthinsurance.co.nz/blog/acc-doesnt-cover-everything/)
+- [Major Medical vs Surgical Cover: What's the Difference?](https://besthealthinsurance.co.nz/blog/major-medical-vs-surgical-cover/)
+- [Cancer Drugs Only If Insured: The Non-Pharmac Gap](https://besthealthinsurance.co.nz/blog/cancer-drugs-only-if-insured/)
+- [Non-Pharmac Drugs: Your Risk Without Insurance](https://besthealthinsurance.co.nz/blog/non-pharmac-drugs-risk-without-insurance/)
+- [What Health Insurance Pays at Cancer Diagnosis](https://besthealthinsurance.co.nz/blog/what-health-insurance-pays-cancer-diagnosis/)
+- [The Real Cost of Having No Health Insurance](https://besthealthinsurance.co.nz/blog/real-cost-of-no-health-insurance/)
+- [Public vs Private Healthcare in NZ: A Real Guide](https://besthealthinsurance.co.nz/blog/public-vs-private-healthcare-real-guide/)
 
-### Life Stage Recommendations
-- [Best Health Insurance for Families: 2026 Ranked Guide](https://besthealthinsurance.co.nz/blog/best-health-insurance-families-ranked/)
-- [Best Health Insurance for Over 60s](https://besthealthinsurance.co.nz/blog/best-health-insurance-over-60s/)
-- [Best Health Cover for Self-Employed Kiwis](https://besthealthinsurance.co.nz/blog/best-cover-self-employed-kiwis/)
-- [Is Corporate Health Insurance Worth It for Your Staff?](https://besthealthinsurance.co.nz/blog/corporate-health-insurance-worth-it/)
+### Life Stage Guides
+- [Is Children's Health Insurance Worth It?](https://besthealthinsurance.co.nz/blog/is-childrens-health-insurance-worth-it/)
+- [Health Insurance After 65: Your Options Explained](https://besthealthinsurance.co.nz/blog/health-insurance-after-65/)
+- [Self-Employed Health Insurance Guide](https://besthealthinsurance.co.nz/blog/self-employed-health-insurance-guide/)
+- [Family Health Insurance Without Overpaying](https://besthealthinsurance.co.nz/blog/family-health-insurance-without-overpaying/)
+
+### Regional Guides
+- [Health Insurance in Auckland: Beating the Waiting Lists](https://besthealthinsurance.co.nz/blog/health-insurance-auckland-waiting-lists/)
+- [Health Insurance in Wellington: A Local Guide](https://besthealthinsurance.co.nz/blog/health-insurance-wellington-guide/)
+- [Health Insurance in Christchurch: Your Guide](https://besthealthinsurance.co.nz/blog/health-insurance-christchurch-guide/)
 
 ### Smart Buying Tips
-- [How to Switch Health Insurers Without Losing Cover](https://besthealthinsurance.co.nz/blog/how-to-switch-health-insurers/)
-- [Health Insurance Excess: What Level Should You Choose?](https://besthealthinsurance.co.nz/blog/health-insurance-excess-guide/)
-- [Pre-Existing Conditions: Which Insurer Is Most Lenient?](https://besthealthinsurance.co.nz/blog/pre-existing-conditions-best-insurer/)
-- [How Premiums Are Calculated — and How to Keep Them Down](https://besthealthinsurance.co.nz/blog/how-health-insurance-premiums-calculated/)
-- [Top 5 Mistakes When Buying Health Insurance](https://besthealthinsurance.co.nz/blog/top-5-mistakes-buying-health-insurance/)
+- [Smart Excess Strategy: Cut Premiums Without Losing Cover](https://besthealthinsurance.co.nz/blog/smart-excess-strategy-cut-premiums/)
+- [How to Switch Health Insurers Without a Gap in Cover](https://besthealthinsurance.co.nz/blog/switch-health-insurers-no-gap/)
+- [Health Insurance Declined for Pre-Existing Conditions: What to Do](https://besthealthinsurance.co.nz/blog/health-insurance-declined-pre-existing-conditions/)
 
 ---
 
@@ -111,21 +116,21 @@ Tailored recommendations for specific life situations:
 
 **What this service does:** Independent health insurance comparison and adviser referral service for New Zealanders.
 
-**What this service does NOT do:** Sell insurance directly; provide binding quotes; give regulated financial advice (this is provided by the licensed brokers and advisers we connect users with).
+**What this service does NOT do:** Sell insurance directly; provide binding quotes; give regulated financial advice (this is provided by the licensed advisers we connect users with).
 
-**Providers compared:** Southern Cross Health Society, nib New Zealand, AIA New Zealand, Accuro Health Insurance, Partners Life.
+**Providers compared:** Southern Cross Health Society, nib New Zealand, AIA New Zealand, Accuro (now UniMed), Partners Life.
 
-**Key differentiators by provider:**
-- Southern Cross: largest, not-for-profit, most trusted brand, 900,000+ members
-- nib: digital-first but now 20–30% above market on premiums (NZ health book loss-making)
-- AIA: AIA Vitality wellness discounts up to 15% for active members
-- Accuro: only NZ member-owned insurer, lowest premiums, only mental health add-on available
-- Partners Life: most comprehensive policy wordings, broad claim definitions, adviser-sold
+**Key differentiators by provider (January 2026 data):**
+- Southern Cross: NZ's largest (900,000+ members), not-for-profit, most trusted brand, cheapest major medical premiums (~$86/month for 30yo)
+- nib: digital-first but 20–30% above market on NZ premiums (NZ health book loss-making) — not recommended for value
+- AIA: AIA Vitality wellness discounts up to 15% for active members; strong AA financial rating
+- Accuro (now UniMed): only member-owned specialist health insurer; only provider with mental health as standalone add-on; competitive premiums (~$115/month)
+- Partners Life: most comprehensive policy wordings, broad claim definitions, adviser-sold; owned by Dai-ichi Life Japan since 2023
 
-**Market context:** New Zealand has a public healthcare system but public surgical waiting lists often exceed 150 days. Private health insurance provides faster access, specialist choice, and coverage for non-Pharmac funded drugs.
+**Market context:** New Zealand has a public healthcare system (Te Whatu Ora / Health New Zealand) but public surgical waiting lists routinely exceed 150 days. Private health insurance provides faster specialist access, private hospital choice, and coverage for non-Pharmac funded medicines.
 
-**Pricing range:** Surgical-only from ~$55/month (Accuro); comprehensive cover typically $100–$250/month depending on age, excess, and provider.
+**Pricing range (2026, $500 excess, comprehensive hospital, 30yo male):** Southern Cross ~$86/month; Accuro ~$115; AIA ~$119; nib ~$135; Partners Life ~$134.
 
 **Service area:** New Zealand only (.co.nz domain).
 
-**Last updated:** April 2026
+**External references:** PHARMAC (pharmac.govt.nz), Health New Zealand / Te Whatu Ora (tewhatuora.govt.nz), Financial Markets Authority (fma.govt.nz).

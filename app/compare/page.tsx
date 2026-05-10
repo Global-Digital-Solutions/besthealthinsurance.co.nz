@@ -7,7 +7,38 @@ export const metadata: Metadata = {
   title: 'Compare NZ Health Insurance Providers 2026 | Real Prices | BestHealthInsurance',
   description: 'Compare Southern Cross, nib, AIA, Accuro (UniMed), and Partners Life side-by-side with real 2026 premium data. Find the best NZ health insurer for your situation.',
   alternates: { canonical: 'https://besthealthinsurance.co.nz/compare/' },
+  openGraph: {
+    title: 'Compare NZ Health Insurance Providers 2026 | Real Prices',
+    description: 'Side-by-side comparison of all 5 major NZ health insurers with real 2026 pricing, features, and expert recommendations.',
+    url: 'https://besthealthinsurance.co.nz/compare/',
+    type: 'website',
+  },
 }
+
+const comparePageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://besthealthinsurance.co.nz/compare/#webpage",
+  url: "https://besthealthinsurance.co.nz/compare/",
+  name: "Compare NZ Health Insurance Providers 2026",
+  description: "Side-by-side comparison of Southern Cross, nib, AIA, Accuro and Partners Life — real 2026 premium data, features, and expert NZ adviser recommendations.",
+  inLanguage: "en-NZ",
+  isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Compare Providers", item: "https://besthealthinsurance.co.nz/compare/" },
+    ],
+  },
+  about: [
+    { "@type": "Organization", name: "Southern Cross Health Insurance", url: "https://www.southerncross.co.nz" },
+    { "@type": "Organization", name: "nib New Zealand", url: "https://www.nib.co.nz" },
+    { "@type": "Organization", name: "AIA New Zealand", url: "https://www.aia.co.nz" },
+    { "@type": "Organization", name: "Accuro (UniMed) Health Insurance", url: "https://www.accuro.co.nz" },
+    { "@type": "Organization", name: "Partners Life", url: "https://www.partnerslife.co.nz" },
+  ],
+};
 
 const features = [
   { name: 'Hospital & Surgical Cover', southern: true, nib: true, aia: true, accuro: true, partners: true },
@@ -44,6 +75,8 @@ function FeatureCell({ val }: { val: boolean | string }) {
 export default function ComparePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(comparePageSchema) }} />
+
       {/* ── Hero ── */}
       <div
         className="relative border-b border-gray-700"

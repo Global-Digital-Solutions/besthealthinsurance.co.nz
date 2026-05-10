@@ -3,14 +3,40 @@ import Link from 'next/link'
 import QuoteForm from '../components/QuoteForm'
 
 export const metadata: Metadata = {
-  title: 'About Us | BestHealthInsurance.co.nz',
-  description: 'BestHealthInsurance.co.nz is part of the Cover4You Group — passionate about helping Kiwis find the right health insurance policy for their needs and budget.',
+  title: 'About BestHealthInsurance.co.nz | Independent NZ Health Insurance Comparison',
+  description: 'BestHealthInsurance.co.nz is part of the Cover4You Group — passionate about helping Kiwis find the right health insurance policy for their needs and budget. Independent, honest, free to use.',
   alternates: { canonical: 'https://besthealthinsurance.co.nz/about/' },
+  openGraph: {
+    title: 'About BestHealthInsurance.co.nz | Independent NZ Health Insurance Comparison',
+    description: 'Independent health insurance comparison and referral service for New Zealanders. We connect you with specialist advisers who compare all major providers.',
+    url: 'https://besthealthinsurance.co.nz/about/',
+    type: 'website',
+  },
 }
+
+const aboutPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://besthealthinsurance.co.nz/about/#webpage",
+  url: "https://besthealthinsurance.co.nz/about/",
+  name: "About BestHealthInsurance.co.nz",
+  description: "BestHealthInsurance.co.nz is an independent health insurance comparison and referral service operated by the Cover4You Group. We connect New Zealanders with specialist advisers who compare all major providers.",
+  inLanguage: "en-NZ",
+  isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+  about: { "@id": "https://besthealthinsurance.co.nz/#organization" },
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "About Us", item: "https://besthealthinsurance.co.nz/about/" },
+    ],
+  },
+};
 
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }} />
       {/* Hero */}
       <div
         className="relative border-b border-gray-700"
