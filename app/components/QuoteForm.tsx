@@ -26,7 +26,7 @@ export default function QuoteForm({ compact = false, title = "Get Your Health In
         <input type="email" name="email" placeholder="Email address" required
           className="w-full bg-gray-900 border border-gray-600 text-white placeholder-gray-500 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 transition-colors" />
 
-        <input type="tel" name="phone" placeholder="Phone number"
+        <input type="tel" pattern="[+]?[0-9\s\-().]{6,}" title="Please enter a valid phone number" minLength={6} name="phone" placeholder="Phone number"
           className="w-full bg-gray-900 border border-gray-600 text-white placeholder-gray-500 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-emerald-500 transition-colors" />
 
         <select name="cover_type"

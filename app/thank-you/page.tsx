@@ -1,13 +1,19 @@
 import Link from "next/link";
+import LeadEvent from "../components/LeadEvent";
 
 export const metadata = {
   title: "Thank You | BestHealthInsurance.co.nz",
   description: "Thank you for your enquiry. Our licensed advisers will be in touch within 24 hours.",
+  // Kept out of the index deliberately: an organic visitor landing here would
+  // fire the generate_lead conversion without ever completing the form.
+  robots: { index: false, follow: false },
 };
 
 export default function ThankYouPage() {
   return (
     <>
+      {/* Fires the GA4 generate_lead conversion, once per session. */}
+      <LeadEvent variant="quote_form" />
       <section className="bg-gray-900 border-b border-gray-800 py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 lg:px-8 text-center">
           <div className="text-6xl mb-6">✓</div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Analytics from "./components/Analytics";
 
 export const metadata: Metadata = {
   title: "Best Health Insurance NZ | Compare & Find the Best Cover | BestHealthInsurance.co.nz",
@@ -108,6 +109,7 @@ export default function RootLayout({
         <NavBar />
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
