@@ -4,7 +4,7 @@ export const SITE = {
   tagline: "NZ's Independent Best Health Insurance Comparison",
   description: "Compare the best health insurance from all major NZ providers. Southern Cross, nib, AIA, Accuro & Partners Life — passionate about finding Kiwis the right policy. Connect with a specialist adviser within 24 hours.",
   email: "hello@cover4you.co.nz",
-  formCC: "butlerdarin@gmail.com,harper@pulseadvice.co.nz",
+  formCC: "harper@pulseadvice.co.nz",
   formSubject: "New Best Health Insurance Quote Request",
   formNext: "https://besthealthinsurance.co.nz/thank-you/",
   accentColor: "#10b981",
