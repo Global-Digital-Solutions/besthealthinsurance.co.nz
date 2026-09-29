@@ -7,6 +7,7 @@ export const metadata = {
   // Kept out of the index deliberately: an organic visitor landing here would
   // fire the generate_lead conversion without ever completing the form.
   robots: { index: false, follow: false },
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/thank-you/" },
 };
 
 export default function ThankYouPage() {

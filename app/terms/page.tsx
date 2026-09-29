@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Terms of Use | BestHealthInsurance.co.nz",
   description: "Terms of use for BestHealthInsurance.co.nz. Please read these terms before using our website.",
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/terms/" },
 };
 
 export default function TermsPage() {

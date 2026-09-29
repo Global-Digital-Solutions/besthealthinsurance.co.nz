@@ -3,11 +3,11 @@ import QuoteForm from "../components/QuoteForm";
 export const metadata = {
   title: "Get a Health Insurance Quote NZ | BestHealthInsurance.co.nz",
   description: "Get connected with a licensed New Zealand financial adviser we have vetted, within 24 hours. No obligation, and no cost to you.",
-  alternates: { canonical: "https://besthealthinsurance.co.nz/contact/" },
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/contact/" },
   openGraph: {
     title: "Get a Health Insurance Quote NZ | BestHealthInsurance.co.nz",
     description: "Get connected with a licensed New Zealand financial adviser within 24 hours, at no cost to you.",
-    url: "https://besthealthinsurance.co.nz/contact/",
+    url: "https://www.besthealthinsurance.co.nz/contact/",
     type: "website",
   },
 };
@@ -15,17 +15,17 @@ export const metadata = {
 const contactPageSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "@id": "https://besthealthinsurance.co.nz/contact/#webpage",
-  url: "https://besthealthinsurance.co.nz/contact/",
+  "@id": "https://www.besthealthinsurance.co.nz/contact/#webpage",
+  url: "https://www.besthealthinsurance.co.nz/contact/",
   name: "Get a Health Insurance Quote — BestHealthInsurance.co.nz",
   description: "Get connected with a licensed New Zealand health insurance adviser within 24 hours, at no cost to you.",
   inLanguage: "en-NZ",
-  isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+  isPartOf: { "@id": "https://www.besthealthinsurance.co.nz/#website" },
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
-      { "@type": "ListItem", position: 2, name: "Get a Quote", item: "https://besthealthinsurance.co.nz/contact/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Get a Quote", item: "https://www.besthealthinsurance.co.nz/contact/" },
     ],
   },
 };
@@ -61,7 +61,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm mb-1">Website</p>
-                  <a href="https://besthealthinsurance.co.nz" className="text-white font-semibold hover:text-emerald-400 transition-colors">
+                  <a href="https://www.besthealthinsurance.co.nz" className="text-white font-semibold hover:text-emerald-400 transition-colors">
                     besthealthinsurance.co.nz
                   </a>
                 </div>

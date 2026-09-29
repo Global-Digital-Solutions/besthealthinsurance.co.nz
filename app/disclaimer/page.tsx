@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Disclaimer | BestHealthInsurance.co.nz",
   description: "Important disclaimer about the information provided on BestHealthInsurance.co.nz.",
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/disclaimer/" },
 };
 
 export default function DisclaimerPage() {

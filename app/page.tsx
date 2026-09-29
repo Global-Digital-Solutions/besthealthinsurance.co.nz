@@ -1,9 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import QuoteForm from "./components/QuoteForm";
 import { COVERAGE_TYPES, FOR_YOU_SEGMENTS } from "../data/coverage";
 import { STATS, PROVIDERS } from "../data/site";
 import { BLOG_POSTS } from "../data/blog";
 import ProviderMark from '@/app/components/ProviderMark'
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/" },
+};
 
 export default function HomePage() {
   const featuredPosts = BLOG_POSTS.slice(0, 3);

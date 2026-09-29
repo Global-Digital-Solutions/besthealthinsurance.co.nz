@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: coverage.metaTitle,
     description: coverage.metaDesc,
-    alternates: { canonical: `https://besthealthinsurance.co.nz/coverage/${slug}/` },
+    alternates: { canonical: `https://www.besthealthinsurance.co.nz/coverage/${slug}/` },
   }
 }
 
@@ -53,24 +53,24 @@ export default async function CoveragePage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
-      { "@type": "ListItem", position: 2, name: "Coverage Types", item: "https://besthealthinsurance.co.nz/coverage/" },
-      { "@type": "ListItem", position: 3, name: coverage.title, item: `https://besthealthinsurance.co.nz/coverage/${slug}/` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Coverage Types", item: "https://www.besthealthinsurance.co.nz/coverage/" },
+      { "@type": "ListItem", position: 3, name: coverage.title, item: `https://www.besthealthinsurance.co.nz/coverage/${slug}/` },
     ],
   }
 
   const medicalWebPageSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "@id": `https://besthealthinsurance.co.nz/coverage/${slug}/#webpage`,
-    url: `https://besthealthinsurance.co.nz/coverage/${slug}/`,
+    "@id": `https://www.besthealthinsurance.co.nz/coverage/${slug}/#webpage`,
+    url: `https://www.besthealthinsurance.co.nz/coverage/${slug}/`,
     name: coverage.metaTitle,
     description: coverage.metaDesc,
     inLanguage: "en-NZ",
-    isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
-    author: { "@id": "https://besthealthinsurance.co.nz/#organization" },
-    publisher: { "@id": "https://besthealthinsurance.co.nz/#organization" },
-    breadcrumb: { "@id": `https://besthealthinsurance.co.nz/coverage/${slug}/#breadcrumb` },
+    isPartOf: { "@id": "https://www.besthealthinsurance.co.nz/#website" },
+    author: { "@id": "https://www.besthealthinsurance.co.nz/#organization" },
+    publisher: { "@id": "https://www.besthealthinsurance.co.nz/#organization" },
+    breadcrumb: { "@id": `https://www.besthealthinsurance.co.nz/coverage/${slug}/#breadcrumb` },
     medicalAudience: { "@type": "Patient" },
     lastReviewed: "2026-05-10",
   }

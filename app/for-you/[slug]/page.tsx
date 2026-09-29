@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${segment?.title} Health Insurance | BestHealthInsurance.co.nz`,
     description: segment?.desc,
+    alternates: { canonical: `https://www.besthealthinsurance.co.nz/for-you/${params.slug}/` },
   };
 }
 

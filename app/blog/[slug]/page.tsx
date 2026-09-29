@@ -13,14 +13,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${post?.title} | BestHealthInsurance.co.nz`,
     description: post?.excerpt,
-    alternates: { canonical: `https://besthealthinsurance.co.nz/blog/${params.slug}/` },
+    alternates: { canonical: `https://www.besthealthinsurance.co.nz/blog/${params.slug}/` },
     openGraph: {
       title: `${post?.title} | BestHealthInsurance.co.nz`,
       description: post?.excerpt,
-      url: `https://besthealthinsurance.co.nz/blog/${params.slug}/`,
+      url: `https://www.besthealthinsurance.co.nz/blog/${params.slug}/`,
       type: "article",
       publishedTime: post?.date,
-      authors: ["https://besthealthinsurance.co.nz/about/"],
+      authors: ["https://www.besthealthinsurance.co.nz/about/"],
     },
   };
 }
@@ -61,39 +61,39 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const blogPostingSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": `https://besthealthinsurance.co.nz/blog/${post.slug}/#article`,
+    "@id": `https://www.besthealthinsurance.co.nz/blog/${post.slug}/#article`,
     headline: post.title,
     description: post.excerpt,
-    url: `https://besthealthinsurance.co.nz/blog/${post.slug}/`,
+    url: `https://www.besthealthinsurance.co.nz/blog/${post.slug}/`,
     datePublished: post.date,
     dateModified: post.date,
     inLanguage: "en-NZ",
     author: {
       "@type": "Organization",
-      "@id": "https://besthealthinsurance.co.nz/#organization",
+      "@id": "https://www.besthealthinsurance.co.nz/#organization",
       name: "BestHealthInsurance.co.nz Editorial Team",
-      url: "https://besthealthinsurance.co.nz/about/",
+      url: "https://www.besthealthinsurance.co.nz/about/",
     },
     publisher: {
       "@type": "Organization",
-      "@id": "https://besthealthinsurance.co.nz/#organization",
+      "@id": "https://www.besthealthinsurance.co.nz/#organization",
       name: "BestHealthInsurance.co.nz",
-      logo: { "@type": "ImageObject", url: "https://besthealthinsurance.co.nz/favicon.ico" },
+      logo: { "@type": "ImageObject", url: "https://www.besthealthinsurance.co.nz/favicon.ico" },
     },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://besthealthinsurance.co.nz/blog/${post.slug}/` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.besthealthinsurance.co.nz/blog/${post.slug}/` },
     articleSection: post.category,
     keywords: `health insurance NZ, ${post.category.toLowerCase()}, New Zealand health insurance`,
     timeRequired: `PT${post.readTime.replace(" min", "")}M`,
-    isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+    isPartOf: { "@id": "https://www.besthealthinsurance.co.nz/#website" },
   };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
-      { "@type": "ListItem", position: 2, name: "Health Insurance Guides", item: "https://besthealthinsurance.co.nz/blog/" },
-      { "@type": "ListItem", position: 3, name: post.title, item: `https://besthealthinsurance.co.nz/blog/${post.slug}/` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Health Insurance Guides", item: "https://www.besthealthinsurance.co.nz/blog/" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://www.besthealthinsurance.co.nz/blog/${post.slug}/` },
     ],
   };
 

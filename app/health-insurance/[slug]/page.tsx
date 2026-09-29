@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${provider?.name} Health Insurance NZ | BestHealthInsurance.co.nz`,
     description: `What ${provider?.name} publishes about its own health insurance in New Zealand — structure, plans and cover — plus the questions worth asking before you apply.`,
+    alternates: { canonical: `https://www.besthealthinsurance.co.nz/health-insurance/${params.slug}/` },
   };
 }
 

@@ -5,6 +5,7 @@ import QuoteForm from "../components/QuoteForm";
 export const metadata = {
   title: "Health Insurance Coverage Types NZ | BestHealthInsurance.co.nz",
   description: "Explore all health insurance coverage types available in New Zealand — major medical, surgical, everyday health, mental health, and more.",
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/coverage/" },
 };
 
 export default function CoveragePage() {

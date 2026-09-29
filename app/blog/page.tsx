@@ -4,6 +4,7 @@ import { BLOG_POSTS } from "../../data/blog";
 export const metadata = {
   title: "Health Insurance Guides | BestHealthInsurance.co.nz",
   description: "Expert guides on health insurance in New Zealand — coverage types, provider comparisons, cost guides, and practical advice.",
+  alternates: { canonical: "https://www.besthealthinsurance.co.nz/blog/" },
 };
 
 export default function BlogPage() {

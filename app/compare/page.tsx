@@ -7,11 +7,11 @@ import ProviderMark from '@/app/components/ProviderMark'
 export const metadata: Metadata = {
   title: 'Compare NZ Health Insurance Providers | BestHealthInsurance',
   description: 'How health cover works across Southern Cross, nib, AIA, UniMed and Partners Life, using what each insurer publishes about its own plans. Then get matched with an adviser who can quote for you.',
-  alternates: { canonical: 'https://besthealthinsurance.co.nz/compare/' },
+  alternates: { canonical: 'https://www.besthealthinsurance.co.nz/compare/' },
   openGraph: {
     title: 'Compare NZ Health Insurance Providers',
     description: 'How cover works across the five main NZ health insurers, from what each one publishes about its own plans.',
-    url: 'https://besthealthinsurance.co.nz/compare/',
+    url: 'https://www.besthealthinsurance.co.nz/compare/',
     type: 'website',
   },
 }
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
 const comparePageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://besthealthinsurance.co.nz/compare/#webpage",
-  url: "https://besthealthinsurance.co.nz/compare/",
+  "@id": "https://www.besthealthinsurance.co.nz/compare/#webpage",
+  url: "https://www.besthealthinsurance.co.nz/compare/",
   name: "Compare NZ Health Insurance Providers 2026",
   description: "How health cover works across Southern Cross, nib, AIA, UniMed and Partners Life, drawn from each insurer's own published plan information.",
   inLanguage: "en-NZ",
-  isPartOf: { "@id": "https://besthealthinsurance.co.nz/#website" },
+  isPartOf: { "@id": "https://www.besthealthinsurance.co.nz/#website" },
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://besthealthinsurance.co.nz/" },
-      { "@type": "ListItem", position: 2, name: "Compare Providers", item: "https://besthealthinsurance.co.nz/compare/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.besthealthinsurance.co.nz/" },
+      { "@type": "ListItem", position: 2, name: "Compare Providers", item: "https://www.besthealthinsurance.co.nz/compare/" },
     ],
   },
   about: [
